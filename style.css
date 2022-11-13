@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
-    margin: 0;
-    padding: 0;
+    padding-top: 50px;
     background-color: rgb(61, 61, 61);
+    align-items: center;
 }
 
 header {
@@ -29,6 +31,22 @@ header {
     transition-duration: 700ms;
     border-radius: 5px;
 }
+
+.page {
+    text-align: center;
+    width: 150px;
+    
+}
+
+.page img {
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Open Sans';
+}
+
 
 .btn {
     width: 53px;
