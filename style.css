@@ -3,7 +3,6 @@
 body {
     padding-top: 50px;
     background-color: rgb(61, 61, 61);
-    align-items: center;
 }
 
 header {
@@ -32,14 +31,21 @@ header {
     border-radius: 5px;
 }
 
+.links_parent {
+    text-align: left;
+}
+
 .page {
+    display: inline-block;
     text-align: center;
-    width: 150px;
-    
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .page img {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
 }
 
