@@ -1,3 +1,4 @@
+/*
 "use strict";
 import { loadCSVtoDict } from "./csvParser.js";
 import { createDetailedCard } from "./detailedCard.js";
@@ -135,6 +136,10 @@ async function loadCardsData() {
     Object.assign(cards, ...arrCards.map((f) => ({ [f.id]: f })));
     displayRandom(initRnd);
 }
+*/
+
+
+
 
 /*
 async function readCsv(fileName) {
