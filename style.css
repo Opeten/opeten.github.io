@@ -49,6 +49,22 @@ header {
     margin: 0 auto;
 }
 
+.page:hover {
+    background-color: rgb(0, 0, 0);
+    transition-duration: 1.5s;
+    border-radius: 5px;
+    transform: rotate(0.0turn) scale(1.1);
+}
+
+.image {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .text {
     font-family: "Rubik", sans-serif;
 }
